@@ -1,5 +1,5 @@
 # MongoDotNetCoreExample
-Example of Connect MongoDB with ASP.Net Core solution
+Example of how to Connect MongoDB with ASP.Net Core solution
 
 ## Prerequisite's:
 

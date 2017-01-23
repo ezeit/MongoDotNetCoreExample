@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77BD23A8-0D3D-4792-97A2-C6E88752323E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6DF7D10-D714-4F8E-8D97-62EE218D5B7C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC6_WEBAPI_MongoDB", "src\MVC6_WEBAPI_MongoDB\MVC6_WEBAPI_MongoDB.xproj", "{F1890698-3B9F-4464-9593-CD87C706E1A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7F705F26-6014-48C4-8E10-6616664D8F82}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestLibrary", "TestLibrary\TestLibrary.xproj", "{E78107AD-D399-4F4D-BBB6-C1992AEDA722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1890698-3B9F-4464-9593-CD87C706E1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1890698-3B9F-4464-9593-CD87C706E1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1890698-3B9F-4464-9593-CD87C706E1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1890698-3B9F-4464-9593-CD87C706E1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78107AD-D399-4F4D-BBB6-C1992AEDA722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78107AD-D399-4F4D-BBB6-C1992AEDA722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78107AD-D399-4F4D-BBB6-C1992AEDA722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78107AD-D399-4F4D-BBB6-C1992AEDA722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1890698-3B9F-4464-9593-CD87C706E1A4} = {77BD23A8-0D3D-4792-97A2-C6E88752323E}
+		{E78107AD-D399-4F4D-BBB6-C1992AEDA722} = {7F705F26-6014-48C4-8E10-6616664D8F82}
+	EndGlobalSection
+EndGlobal
